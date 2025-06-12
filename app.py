@@ -57,8 +57,8 @@ if uploaded_file and not st.session_state.file_processed:
         time.sleep(0.5)
         
         cfg = Dynaconf(settings_files=[
-            "/home/user/ABC/Assignment/config/config.toml",
-            "/home/user/ABC/Assignment/config/.secrets.toml"
+            "config/config.toml",
+            "config/.secrets.toml"
         ])
         
         # Step 3: Initialize components
